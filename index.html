@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/components/header.css">
+    <link rel="stylesheet" href="./style/components/hero.css">
+
+    <link rel="stylesheet" href="./style/components/info.css">
+
+    <link rel="stylesheet" href="./style/components/menu.css">
+    <link rel="stylesheet" href="/style/components/contact.css">
+
+    <link rel="stylesheet" href="./style/components/footer.css">
+    <title>TBurger</title>
+</head>
+
+<body>
+
+    <header class="header" id="home">
+        <span class="header__logo"><i class="fa-solid fa-burger"></i><span>T</span>Burger</span>
+        <nav class="header__nav">
+            <ul class="nav__ul">
+                <li class="nav__li"><a href="#home" class="nav__a">Home</a>
+                </li>
+                <li class="nav__li"><a href="#sobre__title" class="nav__a">sobre nós</a>
+                </li>
+                <li class="nav__li"><a href="#menu__title" class="nav__a">Serviços</a>
+                </li>
+                <li class="nav__li"><a href="#contato__title" class="nav__a">Contate-nos</a>
+                </li>
+                <li class="nav__li"><a href="#midia__title" class="nav__a">mídia social</a>
+                </li>
+            </ul>
+        </nav>
+        <button class="header__btn">Sign up</button>
+ 
+       
+        <button class="header__icon-btn" id="menuBtn">
+            <i class="fa-solid fa-bars header__icon"></i>
+        </button>
+       
+<div class="header__list-menu" id="listMenu">
+    <button class="menu_icon-btn" id="closeBtn"><i class="fa-solid fa-xmark menu__icon-x" ></i></button>
+    <ul class="amb">
+        <li class="mobile__li"><a href="#home" class="mobile__a">Home</a>
+        </li>
+        <li class="mobile__li"><a href="#sobre__title" class="mobile__a">sobre nós</a>
+        </li>
+        <li class="mobile__li"><a href="#menu__title" class="mobile__a">Serviços</a>
+        </li>
+        <li class="mobile__li"><a href="#contato__title" class="mobile__a">Contate-nos</a>
+        </li>
+        <li class="mobile__li"><a href="#midia__title" class="mobile__a">mídia social</a>
+        </li>
+       
+    </ul>
+</div>
+    </header>
+    <section class="hero">
+        <div class="hero__left">
+            <h1 class="hero__title" id="home__title">
+                Sabor único, feito com <span>paixão</span>.
+            </h1>
+            <h2 class="hero__description">Bem-vindo à T-Burger, onde a paixão por hambúrgueres se transforma em uma
+                experiência única para os amantes da boa gastronomia! Nossa missão é simples: criar hambúrgueres
+                irresistíveis, feitos com ingredientes frescos e selecionados, que tragam sabor e qualidade em cada
+                mordida</h2>
+            <button class="hero__btn">começar</button>
+        </div>
+        <div class="hero__right">
+            <img src="./img/monte-seu-lanche.jpg" alt="burger" class="hero__img">
+        </div>
+    </section>
+    <section class="info">
+        <div class="info__left">
+            <h1 class="info__title" id="sobre__title">Sobre a T-Burger</h1>
+            <h2 class="info__description">Na T-Burger, cada detalhe importa. Desde o pão artesanal macio até a carne
+                suculenta, temperada à perfeição, nos esforçamos para oferecer combinações inovadoras e clássicas que
+                atendem a todos os gostos. Nossas opções variam desde os hambúrgueres tradicionais até criações
+                exclusivas, acompanhadas por batatas crocantes e molhos caseiros que fazem toda a diferença.
+            </h2>
+            <button class="info__btn">explore nosso cardapio</button>
+        </div>
+        <div class="info__right"><img src="./img/burger-salada.jpg" alt="info__burger-salada" class="info__img"></div>
+    </section>
+    <section class="menu">
+        <h1 class="menu__title" id="menu__title">Nosso Menu</h1>
+
+        <div class="menu__cards">
+            <div class="menu__card">
+
+                <img src="/img/burger-frango.jpg" alt="burger-frango" class="card__img">
+
+
+                <h3 class="menu__card-title">burger frango</h3>
+
+                <div class="menu__card-description">Descubra o nosso irresistível Hambúrguer de Frango, uma opção perfeita para quem busca um sabor delicioso e uma refeição mais leve. Preparado com carne de frango cuidadosamente selecionada, nosso hambúrguer é temperado com uma combinação especial de ervas e especiarias, garantindo uma experiência única a cada mordida.</div>
+            </div>
+
+            <div class="menu__card">
+
+                <img src="/img/amirali-mirhashemian-88YAXjnpvrM-unsplash.jpg" alt="duplo-bacon" class="card__img">
+
+
+                <h3 class="menu__card-title">duplo-bacon</h3>
+
+                <div class="menu__card-description">Prepare-se para uma experiência gastronômica inesquecível com o nosso Duplo Bacon, um hambúrguer criado especialmente para quem não abre mão de um sabor intenso e irresistível. Composto por dois suculentos hambúrgueres de carne bovina, grelhados à perfeição para garantir um sabor único e uma textura macia, esse clássico é elevado ao próximo nível com generosas camadas de bacon crocante.</div>
+            </div>
+
+            <div class="menu__card">
+
+                <img src="/img/amirali-mirhashemian-sc5sTPMrVfk-unsplash.jpg" alt="duplo-salada" class="card__img">
+
+
+                <h3 class="menu__card-title">duplo-salada</h3>
+
+                <div class="menu__card-description">Conheça o nosso Duplo Salada, a opção perfeita para quem busca a combinação ideal de sabor e frescor em um hambúrguer. Composto por dois hambúrgueres de carne bovina suculenta grelhados à perfeição para um sabor inigualável e uma incrivel salada, este sanduíche é equilibrado com uma generosa porção de ingredientes frescos e crocantes.</div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="contact">
+        <form action="" class="contact__form">
+            <div class="contact__form-title">
+                <h2 class="contact__form-title-h2" id="contato__title">Contate-nos</h2>
+            </div>
+            <input type="text" name="name" id="" placeholder="seu nome" class="contact__input">
+            <input type="email" name="email" id="" placeholder="seu email" class="contact__input">
+            <textarea name="message" id="" placeholder="sua mensagem"
+                class="contact__input contact__textarea"></textarea>
+            <button type="submit" class="form__btn" id="enviar">Enviar</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <nav class="footer__nav">
+            <ul class="footer__ul">
+                <li class="footer__li"><a href="#home" class="footer__a">Home</a>
+                </li>
+                <li class="footer__li"><a href="#sobre__title" class="footer__a">sobre nós</a>
+                </li>
+                <li class="footer__li"><a href="#menu__title" class="footer__a">Serviços</a>
+                </li>
+                <li class="footer__li"><a href="#contato__title" class="footer__a">Contate-nos</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="footer__social">
+            <h4 class="footer__txt" id="midia__title">
+                ©TBurger.RafaelTrindade.</h4>
+            <div class="footer__midia">
+                <a href="https://www.linkedin.com/in/rafael-rocha-da-trindade-686811229/" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/FaelTrindade" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
